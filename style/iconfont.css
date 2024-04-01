@@ -1,0 +1,15 @@
+.icon {
+  display: inline-block;
+  width:25px;
+  height: 25px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.icon-grid { background-image: url(/assets/icon/grid.svg);}
+.icon-light { background-image: url(/assets/icon/light.svg);}
+.icon-dark { background-image: url(/assets/icon/dark.svg);}
+.icon-follow { background-image: url(/assets/icon/follow.svg);}
+.icon-link { background-image: url(/assets/icon/link.svg);}
+.icon-translate { background-image: url(/assets/icon/translate.svg);}
+.icon-pullup { background-image: url(/assets/icon/pullup.svg);}

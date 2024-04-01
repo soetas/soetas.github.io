@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root { 
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7e7e7e;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #cecece;
+}
+
+
+
+

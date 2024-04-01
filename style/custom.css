@@ -1,0 +1,57 @@
+.header {
+  padding: 25px 30px;
+}
+
+.header__right {
+  width: 120px;
+}
+
+.main__container {
+  width: 80%;
+  padding-top: 120px;
+}
+
+.introduce__first {
+  font-size: 1.6rem;
+  color: #848484;
+}
+
+.introduce__second {
+  font-size: 60px;
+  color: #929292;
+  max-width: 1080px;
+  margin: 30px 0;
+  min-height: 180px;
+}
+
+.introduce__third {
+  font-size: 30px;
+  color: #646464;
+  max-width: 1080px;
+}
+
+.main__projects {
+  min-height: 600px;
+
+}
+
+.footer {
+  min-height: 300px;
+  background: #eee;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .3);
+
+}
+
+.overlay__container > div {
+  width: 150px;
+  height: 150px;
+}
+
