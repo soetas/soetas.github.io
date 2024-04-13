@@ -13,3 +13,20 @@
 .icon-link { background-image: url(/assets/icon/link.svg);}
 .icon-translate { background-image: url(/assets/icon/translate.svg);}
 .icon-pullup { background-image: url(/assets/icon/pullup.svg);}
+
+.icon-github { background-image: url(/assets/icon/github.svg);}
+.icon-gitee { background-image: url(/assets/icon/gitee.svg);}
+.icon-bilibili { background-image: url(/assets/icon/bilibili.svg);}
+
+.icon-juejin { background-image: url(/assets/icon/juejin.svg);}
+.icon-stackoverflow { background-image: url(/assets/icon/stackoverflow.svg);}
+.icon-blog { background-image: url(/assets/icon/blog.svg);}
+
+.icon-facebook { background-image: url(/assets/icon/facebook.svg);}
+.icon-twitter { background-image: url(/assets/icon/twitter.svg);}
+.icon-wechat { background-image: url(/assets/icon/wechat.svg);}
+
+.icon-large { 
+  width: 50px;
+  height: 50px;
+}
