@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style/normalize.css">
-	<link rel="stylesheet" href="style/global.css">
-	<link rel="stylesheet" href="style/iconfont.css">
-	<link rel="stylesheet" href="style/utility.css">
-	<link rel="stylesheet" href="style/custom.css">
+  <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="public/style/normalize.css">
+	<link rel="stylesheet" href="public/style/global.css">
+	<link rel="stylesheet" href="public/style/iconfont.css">
+	<link rel="stylesheet" href="public/style/utility.css">
+	<link rel="stylesheet" href="public/style/custom.css">
 	<title>Samuel の world</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
 			<ul class="flex justify-between header__right">
 				<li><i class="icon icon-follow" title="follow me"></i></li>
 				<li><i class="icon icon-translate"></i></li>
-				<li><i class="icon icon-light"></i></li>
+				<li><i class="icon icon-theme"></i></li>
 			</ul>
 		</div>
 	</header>
@@ -25,8 +26,10 @@
 		<div class="m-auto main__container">
 			<p class="introduce__first">Hi, I am</p>
 			<p class="introduce__second"></p>
-			<p class="introduce__third">You can follow me on github and twitter. Outside of programming, 
-				I enjoy watching movies and anime, as well as listening to music. </p>
+			<p class="introduce__third">
+        You can follow me on github and twitter. Outside of programming, 
+				I enjoy watching movies and anime, as well as listening to music.
+      </p>
 		</div>
 		<div class="grid grid-cols-2 main__projects">
 			<div></div>
@@ -38,10 +41,10 @@
 		</div>
 	</main>
 	<footer class="footer">
+    
 
 	</footer>
   <canvas id="background"></canvas>
-  <div class="project__topbar hidden"></div>
 	<div id="overlay" class="overlay flex justify-center items-center hidden">
 		<div class="grid grid-cols-3 gap-2 overlay__container">
 			<a href="https://github.com" target="_blank">
@@ -82,6 +85,6 @@
       </a>
 		</div>
 	</div>
-	<script type="module" src="js/main.js"></script>
+	<script type="module" src="public/js/main.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 "use strict"
 
-import '../lib/particles.js'
+import '../../lib/particles.js'
 
 function sleep(seconds) {
   const start = Date.now()
