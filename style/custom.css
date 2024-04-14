@@ -1,7 +1,9 @@
-body {
-  background-image: url(/assets/image/dark-background.png);
-  background-repeat: no-repeat;
-  background-size:100vw 100vh;
+#background {
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  z-index:-1;
 }
 
 .header {
@@ -15,18 +17,18 @@ body {
 .main__container {
   width: 80%;
   height: 100vh;
-  margin-top: -80px;
+  margin-top: -78px;
   padding-top: 200px;
 }
 
 .introduce__first {
   font-size: 1.6rem;
-  color: #fff;
+  color: #a6a6a6;
 }
 
 .introduce__second {
   font-size: 60px;
-  color: #fafafa;
+  color: #a3a3a3;
   max-width: 1080px;
   margin: 30px 0;
   min-height: 180px;
@@ -34,20 +36,45 @@ body {
 
 .introduce__third {
   font-size: 30px;
-  color: #e6e6e6;
+  color: #9e9e9e;
   max-width: 1080px;
 }
 
 .main__projects {
   > div {
     height: 35vw;
+
+    &:first-child {
+      background: #111111;
+    }
+
+    &:nth-child(2) {
+      background: #f4f3f1;
+    }
+
+    &:nth-child(3) {
+      background:#89d4d0;
+    }
+
+    &:nth-child(4) {
+      background: #f3ab00;
+    }
+    
+    &:nth-child(5) {
+      background: #eaeaea;
+    }
+
+    
+    &:nth-child(6) {
+      background:#ffa5b4;
+    }
   }
 
 }
 
 .footer {
-  min-height: 300px;
-  background: #eee;
+  min-height: 500px;
+  background: #a1a1a1;
 }
 
 .overlay {
@@ -59,12 +86,13 @@ body {
   background: rgba(0, 0, 0, .6);
 }
 
-.overlay__container > div {
+.overlay__container > a {
   position: relative;
   width: 150px;
   height: 150px;
-  border: 1px solid #9e9e9e;
+  border: 1px solid #767676;
   cursor: pointer;
+  overflow: hidden;
 
   > div {
     position: absolute;
@@ -75,7 +103,25 @@ body {
   }
 
   >div:last-child {
-    display: none;
+    text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    top:100%;
+    background: rgba(65, 65, 65, 0.3);
+    font-size: 20px;
+
+    > span:last-child {
+      padding: 6px 25px;
+      font-size: 12px;
+      margin-top: 8px;
+      background:#fff;
+      color: #000;
+    }
+  }
+
+  &:hover {
+    &>div:first-child { top: -100%;}
+    &>div:last-child { top:0}
   }
 }
 
