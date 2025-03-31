@@ -1,0 +1,13 @@
+main {
+  width: 80%;
+  margin: auto;
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  opacity: 0.75;
+}

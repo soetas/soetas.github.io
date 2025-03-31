@@ -1,0 +1,60 @@
+main {
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+#about {
+  position: absolute;
+  left:0;
+  top: 180px;
+  max-width: 600px;
+
+}
+
+#profile {
+  position: absolute;
+  top: 0;
+  right:0;
+  height: 100%;
+  width: 70%;
+  background-image: url(https://viggoz.com/assets/images/profile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  z-index: -2;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  line-height: 1.5;
+  opacity: 0.75;
+}
+
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a::after {
+  position: absolute;
+  left:0;
+  bottom: -2px;
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: skyblue;
+  z-index: -1;
+  transition: all 0.1s;
+}
+
+a:hover::after {
+  content: "";
+  height: 100%;
+}
