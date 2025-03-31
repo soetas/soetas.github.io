@@ -1,3 +1,10 @@
+@import url(./variables.css);
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
 main {
   position: relative;
   width: 80%;
@@ -11,9 +18,9 @@ main {
   top: 180px;
   max-width: 600px;
 
-}
+} 
 
-#profile {
+/* #profile {
   position: absolute;
   top: 0;
   right:0;
@@ -24,10 +31,15 @@ main {
   background-repeat: no-repeat;
   background-position: 50% 95%;
   z-index: -2;
-}
+} */
 
 h1 {
   font-size: 60px;
+}
+
+p:first-of-type {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 p {

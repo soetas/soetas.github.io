@@ -1,0 +1,14 @@
+:root {
+  --background: #fff;
+  --text-color: #000;
+}
+
+[data-theme=dark] {
+  --background: #000;
+  --text-color: #fff;
+}
+
+[data-theme=dark] a {
+  color: #fff;
+}
+
