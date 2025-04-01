@@ -3,6 +3,7 @@
 body {
   background: var(--background);
   color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -16,30 +17,19 @@ main {
   position: absolute;
   left:0;
   top: 180px;
-  max-width: 600px;
-
+  min-width: 350px;
+  max-width: 38%;
 } 
 
-/* #profile {
+#profile {
   position: absolute;
   top: 0;
   right:0;
-  height: 100%;
-  width: 70%;
-  background-image: url(https://viggoz.com/assets/images/profile.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 95%;
   z-index: -2;
-} */
+}
 
 h1 {
   font-size: 60px;
-}
-
-p:first-of-type {
-  font-size: 24px;
-  font-weight: bold;
 }
 
 p {
@@ -61,7 +51,7 @@ a::after {
   content: "";
   width: 100%;
   height: 5px;
-  background-color: skyblue;
+  background-color: rgba(0, 183, 255, 0.5);
   z-index: -1;
   transition: all 0.1s;
 }
